@@ -4,8 +4,8 @@ import Navbar from "@/components/shared/Navbar";
 const MainLayout = ({ children }) => {
   return (
     <>
-      <Navbar />
       <Headers />
+      <Navbar />
       {children}
     </>
   );
