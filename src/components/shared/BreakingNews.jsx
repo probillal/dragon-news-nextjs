@@ -2,7 +2,8 @@ import Marquee from "react-fast-marquee";
 
 const BreakingNews = () => {
   return (
-    <div>
+    <div className="bg-gray-100 py-2 px-4 flex items-center space-x-4 container mx-auto">
+      <button className="btn bg-red-500 text-white">Latest News</button>
       <Marquee>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
         perferendis perspiciatis sapiente eum. Dolores accusantium perspiciatis
