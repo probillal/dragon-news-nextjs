@@ -19,7 +19,9 @@ const Navbar = () => {
       </ul>
       <div className="flex items-center space-x-4">
         <Image src={userAvatar} alt="User Avatar" width={40} height={40} />
-        <button className="btn btn-primary">Login</button>
+        <button className="btn btn-primary">
+          <Link href="/login">Login</Link>
+        </button>
       </div>
     </div>
   );
